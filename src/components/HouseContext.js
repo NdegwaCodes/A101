@@ -32,6 +32,11 @@ const HouseContextProvider = ({children}) => {
     const allProperties= houses.map((house) => {
       return house.type;
     });
+
+    const handleClick = () => {
+      console.log('clicked')
+    }
+
     //remove duplicates
     const uniqueProperties = ['Property type (any)', ...new Set(allProperties)];
     //set properties state
@@ -112,6 +117,7 @@ const HouseContextProvider = ({children}) => {
   price,
   setPrice,
   loading,
+  handleClick,
   }}>{children}
   </HouseContext.Provider>
   );
