@@ -53,7 +53,7 @@ const HouseContextProvider = ({children}) => {
           house.type===property &&
           housePrice >= minPrice &&
           housePrice <= maxPrice
-             ){
+          ){
           return house;
         }
         //if all values are default
