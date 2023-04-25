@@ -180,7 +180,7 @@ const HouseContextProvider = ({children}) => {
   setPrice,
   loading,
   handleClick,
-  loading,
+  setLoading,
   }}>{children}
   </HouseContext.Provider>
   );

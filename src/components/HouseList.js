@@ -18,7 +18,7 @@ const HouseList = () => {
   if (houses.length < 1){
     return (
       <div className='mx-auto text-center mt-[200px]'>
-        <h3 className='text-2xl text-gray-500'>Unfortunately no houses matched your search parameters</h3>
+        <h3 className='text-2xl text-gray-500'>Sorry, Nothing Found</h3>
       </div>
     );
   }
