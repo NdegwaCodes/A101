@@ -184,5 +184,6 @@ const HouseContextProvider = ({children}) => {
   }}>{children}
   </HouseContext.Provider>
   );
+  
 
 export default HouseContextProvider;
